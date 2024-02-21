@@ -121,6 +121,9 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
 /* about section style */
 .about{
     padding: 130px;
@@ -148,4 +151,40 @@ main{
 
 #what-i-do-description{
     padding: 30px 150px;
+}
+
+/* skills styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6) ;
+
+
+}
+.skill-description{
+    color: #757575;
+}
+/*   <!-- What I do start complete */
+
+/* <!-- A summary of My Resume Start--> */
+
+.resume-container{
+
+}
+
+.resume-column{
+
+}
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    
 }
