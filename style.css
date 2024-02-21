@@ -19,10 +19,27 @@ body{
     padding: 15px 35px;
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* header style start */
 /* header related style start */
 .header{
     background-color: #FFF8F3;
+    background-image: url(./img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
 }
 
 /* nav related style */
@@ -59,15 +76,51 @@ nav a{
 /* nav complete */
 /* banner start */
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    /* t r b l */
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 
 .banner-content{
-    
+    max-width: 500px;
 }
+
+/* .banner-content{
+    max-width: 500px;
+} */
 
 .banner .profile-picture{
     width: 500px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* my own homework only 1/3line css code */
+.banner-description{
+    margin-bottom: 30px;
+}
+
+
+/* main section style */
+
+/* about section style */
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0;
 }
