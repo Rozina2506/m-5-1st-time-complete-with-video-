@@ -175,7 +175,7 @@ main section{
 /* <!-- A summary of My Resume Start--> */
 
 .resume-container{
-
+    display: flex;
 }
 
 .resume-column{
@@ -186,5 +186,31 @@ main section{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-    
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+ .resume-item-institute, .resume-item-description{
+ color: #474747;   
+     
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* jamela ase */
+.resume-container hr{
+    margin: 0px 0px 30px 0px;
+
+}
+
+/* btn */
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
